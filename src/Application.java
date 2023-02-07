@@ -8,7 +8,9 @@ public class Application {
         // whileObj.printWhile();
         // For forObj = new For();
         // forObj.printFor();
-        If ifObj = new If();
-        ifObj.printIf();
+        // If ifObj = new If();
+        // ifObj.printIf();
+        GettingUserInput gettingUserInput = new GettingUserInput();
+        gettingUserInput.print();
     }
 }
