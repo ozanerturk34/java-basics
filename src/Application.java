@@ -4,7 +4,9 @@ public class Application {
         // variableObj.printVariable();
         // StringClass stringObj = new StringClass();
         // stringObj.printString();
-        While whileObj = new While();
-        whileObj.printWhile();
+        // While whileObj = new While();
+        // whileObj.printWhile();
+        For forObj = new For();
+        forObj.printFor();
     }
 }
