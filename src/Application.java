@@ -6,7 +6,9 @@ public class Application {
         // stringObj.printString();
         // While whileObj = new While();
         // whileObj.printWhile();
-        For forObj = new For();
-        forObj.printFor();
+        // For forObj = new For();
+        // forObj.printFor();
+        If ifObj = new If();
+        ifObj.printIf();
     }
 }
