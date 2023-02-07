@@ -10,7 +10,9 @@ public class Application {
         // forObj.printFor();
         // If ifObj = new If();
         // ifObj.printIf();
-        GettingUserInput gettingUserInput = new GettingUserInput();
-        gettingUserInput.print();
+        // GettingUserInput gettingUserInput = new GettingUserInput();
+        // gettingUserInput.print();
+        Switch switchClass = new Switch();
+        switchClass.print();
     }
 }
