@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
+public class Variable {
+    public static void printVariable() {
         System.out.println("Hello World");
         int aValue = 32;
         short aShort = 16;
