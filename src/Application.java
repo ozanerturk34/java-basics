@@ -16,7 +16,9 @@ public class Application {
         // switchClass.print();
         // Array newArray = new Array();
         // newArray.print();
-        MultiDimensionalArray newMultiDimensionalArray = new MultiDimensionalArray();
-        newMultiDimensionalArray.print();
+        // MultiDimensionalArray newMultiDimensionalArray = new MultiDimensionalArray();
+        // newMultiDimensionalArray.print();
+        Objects newObjects = new Objects();
+        newObjects.print();
     }
 }
