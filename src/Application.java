@@ -23,7 +23,9 @@ public class Application {
         // newMultiDimensionalArray.print();
         // Objects newObjects = new Objects();
         // newObjects.print();
-        Car car = new Car();
-        Truck truck = new Truck();
+        // Car car = new Car();
+        // Truck truck = new Truck();
+        Constructors constructors = new Constructors();
+        constructors.print();
     }
 }
