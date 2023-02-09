@@ -1,3 +1,6 @@
+import com.yourwebsite.Car;
+import com.yourwebsite.selfdrive.Truck;
+
 public class Application {
     public static void main(String[] args) {
         // Variable variableObj = new Variable();
@@ -18,7 +21,9 @@ public class Application {
         // newArray.print();
         // MultiDimensionalArray newMultiDimensionalArray = new MultiDimensionalArray();
         // newMultiDimensionalArray.print();
-        Objects newObjects = new Objects();
-        newObjects.print();
+        // Objects newObjects = new Objects();
+        // newObjects.print();
+        Car car = new Car();
+        Truck truck = new Truck();
     }
 }
