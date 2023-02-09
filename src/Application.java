@@ -14,7 +14,9 @@ public class Application {
         // gettingUserInput.print();
         // Switch switchClass = new Switch();
         // switchClass.print();
-        Array newArray = new Array();
-        newArray.print();
+        // Array newArray = new Array();
+        // newArray.print();
+        MultiDimensionalArray newMultiDimensionalArray = new MultiDimensionalArray();
+        newMultiDimensionalArray.print();
     }
 }
