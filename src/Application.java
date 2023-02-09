@@ -12,7 +12,9 @@ public class Application {
         // ifObj.printIf();
         // GettingUserInput gettingUserInput = new GettingUserInput();
         // gettingUserInput.print();
-        Switch switchClass = new Switch();
-        switchClass.print();
+        // Switch switchClass = new Switch();
+        // switchClass.print();
+        Array newArray = new Array();
+        newArray.print();
     }
 }
