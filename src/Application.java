@@ -1,5 +1,6 @@
-import com.yourwebsite.Car;
-import com.yourwebsite.selfdrive.Truck;
+// import Polymorphism.Polymorphism;
+
+import Encapsulation.Encapsulation;
 
 public class Application {
     public static void main(String[] args) {
@@ -27,7 +28,13 @@ public class Application {
         // Truck truck = new Truck();
         // Constructors constructors = new Constructors();
         // constructors.print();
-        StudentApp studentApp = new StudentApp();
-        studentApp.print();
+        // StudentApp studentApp = new StudentApp();
+        // studentApp.print();
+        // CarApp carApp = new CarApp();
+        // carApp.print();
+        // Polymorphism polymorphism = new Polymorphism();
+        // polymorphism.print();
+        Encapsulation encapsulation = new Encapsulation();
+        encapsulation.print();
     }
 }
