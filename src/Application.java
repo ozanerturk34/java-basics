@@ -27,7 +27,9 @@ public class Application {
         // Truck truck = new Truck();
         // Constructors constructors = new Constructors();
         // constructors.print();
-        StudentApp studentApp = new StudentApp();
-        studentApp.print();
+        // StudentApp studentApp = new StudentApp();
+        // studentApp.print();
+        CarApp carApp = new CarApp();
+        carApp.print();
     }
 }
