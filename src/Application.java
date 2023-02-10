@@ -1,4 +1,6 @@
-import Polymorphism.Polymorphism;
+// import Polymorphism.Polymorphism;
+
+import Encapsulation.Encapsulation;
 
 public class Application {
     public static void main(String[] args) {
@@ -30,7 +32,9 @@ public class Application {
         // studentApp.print();
         // CarApp carApp = new CarApp();
         // carApp.print();
-        Polymorphism polymorphism = new Polymorphism();
-        polymorphism.print();
+        // Polymorphism polymorphism = new Polymorphism();
+        // polymorphism.print();
+        Encapsulation encapsulation = new Encapsulation();
+        encapsulation.print();
     }
 }
