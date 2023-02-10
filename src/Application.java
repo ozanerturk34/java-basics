@@ -1,5 +1,4 @@
-import com.yourwebsite.Car;
-import com.yourwebsite.selfdrive.Truck;
+import Polymorphism.Polymorphism;
 
 public class Application {
     public static void main(String[] args) {
@@ -29,7 +28,9 @@ public class Application {
         // constructors.print();
         // StudentApp studentApp = new StudentApp();
         // studentApp.print();
-        CarApp carApp = new CarApp();
-        carApp.print();
+        // CarApp carApp = new CarApp();
+        // carApp.print();
+        Polymorphism polymorphism = new Polymorphism();
+        polymorphism.print();
     }
 }
