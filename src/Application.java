@@ -1,6 +1,8 @@
 // import Polymorphism.Polymorphism;
+// import Encapsulation.Encapsulation;
+// import CastingNumericalValues.CastingNumericalValues;
 
-import Encapsulation.Encapsulation;
+import Interfaces.Interfaces;
 
 public class Application {
     public static void main(String[] args) {
@@ -34,7 +36,11 @@ public class Application {
         // carApp.print();
         // Polymorphism polymorphism = new Polymorphism();
         // polymorphism.print();
-        Encapsulation encapsulation = new Encapsulation();
-        encapsulation.print();
+        // Encapsulation encapsulation = new Encapsulation();
+        // encapsulation.print();
+        // CastingNumericalValues castingNumericalValues = new CastingNumericalValues();
+        // castingNumericalValues.print();
+        Interfaces interfaces = new Interfaces();
+        interfaces.print();
     }
 }
