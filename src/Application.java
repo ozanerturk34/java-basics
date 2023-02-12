@@ -1,8 +1,9 @@
 // import Polymorphism.Polymorphism;
 // import Encapsulation.Encapsulation;
 // import CastingNumericalValues.CastingNumericalValues;
+// import Interfaces.Interfaces;
 
-import Interfaces.Interfaces;
+import AbstractClass.AbstractClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -40,7 +41,9 @@ public class Application {
         // encapsulation.print();
         // CastingNumericalValues castingNumericalValues = new CastingNumericalValues();
         // castingNumericalValues.print();
-        Interfaces interfaces = new Interfaces();
-        interfaces.print();
+        // Interfaces interfaces = new Interfaces();
+        // interfaces.print();
+        AbstractClass abstractClass = new AbstractClass();
+        abstractClass.print();
     }
 }
