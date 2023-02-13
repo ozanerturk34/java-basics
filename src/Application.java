@@ -6,7 +6,9 @@
 // import ScannerClass.ScannerClass;
 // import StringBuilderClass.StringBuilderClass;
 // import ToStringClass.ToStringClass;
-import EqualsClass.EqualsClass;
+// import EqualsClass.EqualsClass;
+
+import TernaryOperator.TernaryOperator;
 
 public class Application {
     public static void main(String[] args) {
@@ -58,8 +60,9 @@ public class Application {
         // builder.print();
         // ToStringClass toStringClass = ToStringClass.getToStringClass();
         // toStringClass.print();
-        EqualsClass equalsClass = EqualsClass.getEqualsClass();
-        equalsClass.print();
-
+        // EqualsClass equalsClass = EqualsClass.getEqualsClass();
+        // equalsClass.print();
+        TernaryOperator ternaryOperator = TernaryOperator.getTernaryOperator();
+        ternaryOperator.print();
     }
 }
