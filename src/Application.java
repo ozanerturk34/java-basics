@@ -3,8 +3,8 @@
 // import CastingNumericalValues.CastingNumericalValues;
 // import Interfaces.Interfaces;
 // import AbstractClass.AbstractClass;
-
-import ScannerClass.ScannerClass;
+// import ScannerClass.ScannerClass;
+import StringBuilderClass.StringBuilderClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -46,11 +46,13 @@ public class Application {
         // interfaces.print();
         // AbstractClass abstractClass = new AbstractClass();
         // abstractClass.print();
-        try {
+        /** try {
             ScannerClass.getScannerClass().print();
         }catch(Exception e){
             System.out.println("Error");
             System.out.println(e);
-        }
+        }*/
+        StringBuilderClass builder = StringBuilderClass.getStringBuilderClass();
+        builder.print();
     }
 }
