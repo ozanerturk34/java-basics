@@ -2,8 +2,13 @@
 // import Encapsulation.Encapsulation;
 // import CastingNumericalValues.CastingNumericalValues;
 // import Interfaces.Interfaces;
+// import AbstractClass.AbstractClass;
+// import ScannerClass.ScannerClass;
+// import StringBuilderClass.StringBuilderClass;
+// import ToStringClass.ToStringClass;
+// import EqualsClass.EqualsClass;
 
-import AbstractClass.AbstractClass;
+import TernaryOperator.TernaryOperator;
 
 public class Application {
     public static void main(String[] args) {
@@ -43,7 +48,21 @@ public class Application {
         // castingNumericalValues.print();
         // Interfaces interfaces = new Interfaces();
         // interfaces.print();
-        AbstractClass abstractClass = new AbstractClass();
-        abstractClass.print();
+        // AbstractClass abstractClass = new AbstractClass();
+        // abstractClass.print();
+        /** try {
+            ScannerClass.getScannerClass().print();
+        }catch(Exception e){
+            System.out.println("Error");
+            System.out.println(e);
+        }*/
+        // StringBuilderClass builder = StringBuilderClass.getStringBuilderClass();
+        // builder.print();
+        // ToStringClass toStringClass = ToStringClass.getToStringClass();
+        // toStringClass.print();
+        // EqualsClass equalsClass = EqualsClass.getEqualsClass();
+        // equalsClass.print();
+        TernaryOperator ternaryOperator = TernaryOperator.getTernaryOperator();
+        ternaryOperator.print();
     }
 }
