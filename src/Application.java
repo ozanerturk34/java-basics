@@ -4,7 +4,8 @@
 // import Interfaces.Interfaces;
 // import AbstractClass.AbstractClass;
 // import ScannerClass.ScannerClass;
-import StringBuilderClass.StringBuilderClass;
+// import StringBuilderClass.StringBuilderClass;
+import ToStringClass.ToStringClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -52,7 +53,9 @@ public class Application {
             System.out.println("Error");
             System.out.println(e);
         }*/
-        StringBuilderClass builder = StringBuilderClass.getStringBuilderClass();
-        builder.print();
+        // StringBuilderClass builder = StringBuilderClass.getStringBuilderClass();
+        // builder.print();
+        ToStringClass toStringClass = ToStringClass.getToStringClass();
+        toStringClass.print();
     }
 }
