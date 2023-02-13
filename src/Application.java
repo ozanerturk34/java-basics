@@ -2,8 +2,9 @@
 // import Encapsulation.Encapsulation;
 // import CastingNumericalValues.CastingNumericalValues;
 // import Interfaces.Interfaces;
+// import AbstractClass.AbstractClass;
 
-import AbstractClass.AbstractClass;
+import ScannerClass.ScannerClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -43,7 +44,13 @@ public class Application {
         // castingNumericalValues.print();
         // Interfaces interfaces = new Interfaces();
         // interfaces.print();
-        AbstractClass abstractClass = new AbstractClass();
-        abstractClass.print();
+        // AbstractClass abstractClass = new AbstractClass();
+        // abstractClass.print();
+        try {
+            ScannerClass.getScannerClass().print();
+        }catch(Exception e){
+            System.out.println("Error");
+            System.out.println(e);
+        }
     }
 }
