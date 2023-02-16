@@ -7,8 +7,9 @@
 // import StringBuilderClass.StringBuilderClass;
 // import ToStringClass.ToStringClass;
 // import EqualsClass.EqualsClass;
+// import TernaryOperator.TernaryOperator;
 
-import TernaryOperator.TernaryOperator;
+import Game.Game;
 
 public class Application {
     public static void main(String[] args) {
@@ -62,7 +63,9 @@ public class Application {
         // toStringClass.print();
         // EqualsClass equalsClass = EqualsClass.getEqualsClass();
         // equalsClass.print();
-        TernaryOperator ternaryOperator = TernaryOperator.getTernaryOperator();
-        ternaryOperator.print();
+        // TernaryOperator ternaryOperator = TernaryOperator.getTernaryOperator();
+        // ternaryOperator.print();
+        Game game = Game.getGame();
+        game.start();
     }
 }
