@@ -27,4 +27,24 @@ public class Word {
         }
         return word.toString();
     }
+    boolean guess(char guessedLetter) {
+        boolean guessedRight = false;
+        char[] charArray = selectedWord.toCharArray();
+        for(int i = 0; i < charArray.length; i++ ) {
+            if(charArray[i] == guessedLetter) {
+                letters[i] = guessedLetter;
+                guessedRight = true;
+            }
+        }
+        return guessedRight;
+    }
+
+    public boolean wordGuessed() {
+        for(char letter : letters) {
+            if(letter  == '\u0000') {
+                return false;
+            }
+        }
+        return true;
+    }
 }

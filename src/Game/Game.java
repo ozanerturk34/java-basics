@@ -14,5 +14,6 @@ public class Game {
     public  void start() {
         GuessTheWord game = new GuessTheWord();
         game.start();
+        game.end();
     }
 }
