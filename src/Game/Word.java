@@ -1,5 +1,7 @@
 package Game;
 
+import java.util.Random;
+
 public class Word {
 
     private String[] randomWords = {"animals","asdasd","friend","gaga","gigi","happy","blazer","mama","serendipity","elegance",
@@ -7,14 +9,22 @@ public class Word {
 
     private String selectedWord;
 
+    // Basically Math.random() with integer instead of double
+    private Random random = new Random();
+
+    private char[] letters;
+
     public Word() {
-        double random = Math.random();
-        int index = (int) Math.round(random*(randomWords.length-1));
-        selectedWord =  randomWords[index];
+        selectedWord =  randomWords[random.nextInt(randomWords.length)];
+        letters = new char[selectedWord.length()];
     };
 
     @Override
     public String toString() {
-        return selectedWord;
+        StringBuilder word = new StringBuilder();
+        for(char letter : letters) {
+            word.append(letter == '\u0000' ? '-' : letter);
+        }
+        return word.toString();
     }
 }
