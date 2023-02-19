@@ -9,7 +9,10 @@
 // import EqualsClass.EqualsClass;
 // import TernaryOperator.TernaryOperator;
 
+import Exceptions.Exceptions;
 import Game.Game;
+
+import java.io.FileNotFoundException;
 
 public class Application {
     public static void main(String[] args) {
@@ -65,7 +68,13 @@ public class Application {
         // equalsClass.print();
         // TernaryOperator ternaryOperator = TernaryOperator.getTernaryOperator();
         // ternaryOperator.print();
-        Game game = Game.getGame();
-        game.start();
+        // Game game = Game.getGame();
+        // game.start();
+        Exceptions exceptions = Exceptions.getExceptions();
+        try {
+            exceptions.print();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        }
     }
 }
