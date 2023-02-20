@@ -8,14 +8,13 @@
 // import ToStringClass.ToStringClass;
 // import EqualsClass.EqualsClass;
 // import TernaryOperator.TernaryOperator;
-
-import Exceptions.Exceptions;
-import Game.Game;
-import MultipleException.MultipleException;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.text.ParseException;
+// import Exceptions.Exceptions;
+// import Game.Game;
+// import MultipleException.MultipleException;
+// import java.io.FileNotFoundException;
+// import java.io.IOException;
+// import java.text.ParseException;
+import RuntimeExceptionClass.RuntimeExceptionClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -79,7 +78,7 @@ public class Application {
         // } catch (FileNotFoundException e) {
         //    System.out.println("File not found");
         // }
-        MultipleException multipleException = MultipleException.getMultipleException();
+        // MultipleException multipleException = MultipleException.getMultipleException();
        /** try {
             multipleException.start();
         } catch (IOException e) {
@@ -93,12 +92,14 @@ public class Application {
             System.out.println("ParseException or IOException");
         }*/
 
-        try {
+        /** try {
             multipleException.example();
         } catch (FileNotFoundException e) {
             System.out.println("FileNotFoundException");
         } catch (IOException e) {
             System.out.println("IOException");
-        }
+        } */
+        RuntimeExceptionClass runtimeExceptionClass = RuntimeExceptionClass.getRuntimeExceptionClass();
+        runtimeExceptionClass.start();
     }
 }
