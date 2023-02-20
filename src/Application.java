@@ -2,7 +2,7 @@
 // import Encapsulation.Encapsulation;
 // import CastingNumericalValues.CastingNumericalValues;
 // import Interfaces.Interfaces;
-// import AbstractClass.AbstractClass;
+// import AnonymousClass.AnonymousClass;
 // import ScannerClass.ScannerClass;
 // import StringBuilderClass.StringBuilderClass;
 // import ToStringClass.ToStringClass;
@@ -14,7 +14,9 @@
 // import java.io.FileNotFoundException;
 // import java.io.IOException;
 // import java.text.ParseException;
-import RuntimeExceptionClass.RuntimeExceptionClass;
+// import RuntimeExceptionClass.RuntimeExceptionClass;
+
+import AbstractClass.AbstractClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -54,8 +56,8 @@ public class Application {
         // castingNumericalValues.print();
         // Interfaces interfaces = new Interfaces();
         // interfaces.print();
-        // AbstractClass abstractClass = new AbstractClass();
-        // abstractClass.print();
+        // AnonymousClass anonymousClass = new AnonymousClass();
+        // anonymousClass.print();
         /** try {
             ScannerClass.getScannerClass().print();
         }catch(Exception e){
@@ -99,7 +101,9 @@ public class Application {
         } catch (IOException e) {
             System.out.println("IOException");
         } */
-        RuntimeExceptionClass runtimeExceptionClass = RuntimeExceptionClass.getRuntimeExceptionClass();
-        runtimeExceptionClass.start();
+        // RuntimeExceptionClass runtimeExceptionClass = RuntimeExceptionClass.getRuntimeExceptionClass();
+        // runtimeExceptionClass.start();
+        AbstractClass ac = AbstractClass.getAbstractClass();
+        ac.start();
     }
 }

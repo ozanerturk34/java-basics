@@ -1,29 +1,26 @@
 package AbstractClass;
 
-class Computer {
-    public void shutdown() {
-        System.out.println("Shuttind down the computer");
-    }
-}
-
-interface Phone {
-    default void call() {
-        System.out.println("Calling");
-    }
-}
-
 public class AbstractClass {
-    public void print(){
-        // creates an anonymous class on top of Computer
-        Computer computer1 = new Computer() {
-            @Override
-            public void shutdown() {
-                System.out.println("Shuttind X'' down the computer");
-            }
-        };
-        computer1.shutdown();
-        // Makes an anonymous class by utilising Interface Phone
-        Phone phone1 = new Phone() {};
-        phone1.call();
+    private static AbstractClass obj;
+    private AbstractClass() {};
+    public static AbstractClass getAbstractClass(){
+        if(obj == null) {
+            obj = new AbstractClass();
+        }
+        return obj;
+    };
+    public void start(){
+        Car car1 = new Car();
+        car1.setEngine("1.6");
+        String carEngine = car1.getEngine();
+        System.out.println(carEngine);
+        car1.drive();
+
+        Truck truck1 = new Truck();
+        truck1.setEngine("2.2");
+        String truckEngine = truck1.getEngine();
+        System.out.println(truckEngine);
+        truck1.drive();
+
     };
 }
