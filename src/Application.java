@@ -18,8 +18,9 @@
 // import AbstractClass.AbstractClass;
 // import InnerClasses.InnerClasses;
 // import PassingByValue.PassingByValue;
+// import LambdaExpressions.LambdaExpressions;
 
-import LambdaExpressions.LambdaExpressions;
+import EnumsAdvancedUsage.EnumsAdvancedUsage;
 
 public class Application {
     public static void main(String[] args) {
@@ -112,7 +113,9 @@ public class Application {
         // ic.start();
         // PassingByValue pbv = new PassingByValue();
         // pbv.print();
-        LambdaExpressions le = new LambdaExpressions();
-        le.print();
+        // LambdaExpressions le = new LambdaExpressions();
+        // le.print();
+        EnumsAdvancedUsage eau = new EnumsAdvancedUsage();
+        eau.print();
     }
 }
