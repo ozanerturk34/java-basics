@@ -16,8 +16,9 @@
 // import java.text.ParseException;
 // import RuntimeExceptionClass.RuntimeExceptionClass;
 // import AbstractClass.AbstractClass;
+// import InnerClasses.InnerClasses;
 
-import InnerClasses.InnerClasses;
+import PassingByValue.PassingByValue;
 
 public class Application {
     public static void main(String[] args) {
@@ -106,7 +107,9 @@ public class Application {
         // runtimeExceptionClass.start();
         // AbstractClass ac = AbstractClass.getAbstractClass();
         // ac.start();
-        InnerClasses ic = InnerClasses.getInnerClasses();
-        ic.start();
+        // InnerClasses ic = InnerClasses.getInnerClasses();
+        // ic.start();
+        PassingByValue pbv = new PassingByValue();
+        pbv.print();
     }
 }
