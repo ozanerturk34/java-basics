@@ -15,8 +15,9 @@
 // import java.io.IOException;
 // import java.text.ParseException;
 // import RuntimeExceptionClass.RuntimeExceptionClass;
+// import AbstractClass.AbstractClass;
 
-import AbstractClass.AbstractClass;
+import InnerClasses.InnerClasses;
 
 public class Application {
     public static void main(String[] args) {
@@ -103,7 +104,9 @@ public class Application {
         } */
         // RuntimeExceptionClass runtimeExceptionClass = RuntimeExceptionClass.getRuntimeExceptionClass();
         // runtimeExceptionClass.start();
-        AbstractClass ac = AbstractClass.getAbstractClass();
-        ac.start();
+        // AbstractClass ac = AbstractClass.getAbstractClass();
+        // ac.start();
+        InnerClasses ic = InnerClasses.getInnerClasses();
+        ic.start();
     }
 }
