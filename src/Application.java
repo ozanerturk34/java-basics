@@ -17,8 +17,9 @@
 // import RuntimeExceptionClass.RuntimeExceptionClass;
 // import AbstractClass.AbstractClass;
 // import InnerClasses.InnerClasses;
+// import PassingByValue.PassingByValue;
 
-import PassingByValue.PassingByValue;
+import LambdaExpressions.LambdaExpressions;
 
 public class Application {
     public static void main(String[] args) {
@@ -109,7 +110,9 @@ public class Application {
         // ac.start();
         // InnerClasses ic = InnerClasses.getInnerClasses();
         // ic.start();
-        PassingByValue pbv = new PassingByValue();
-        pbv.print();
+        // PassingByValue pbv = new PassingByValue();
+        // pbv.print();
+        LambdaExpressions le = new LambdaExpressions();
+        le.print();
     }
 }
