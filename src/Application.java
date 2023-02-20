@@ -11,8 +11,11 @@
 
 import Exceptions.Exceptions;
 import Game.Game;
+import MultipleException.MultipleException;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.text.ParseException;
 
 public class Application {
     public static void main(String[] args) {
@@ -70,11 +73,32 @@ public class Application {
         // ternaryOperator.print();
         // Game game = Game.getGame();
         // game.start();
-        Exceptions exceptions = Exceptions.getExceptions();
+        // Exceptions exceptions = Exceptions.getExceptions();
+        // try {
+        //    exceptions.print();
+        // } catch (FileNotFoundException e) {
+        //    System.out.println("File not found");
+        // }
+        MultipleException multipleException = MultipleException.getMultipleException();
+       /** try {
+            multipleException.start();
+        } catch (IOException e) {
+            System.out.println("IOException");
+        } catch (ParseException e) {
+            System.out.println("ParseException");
+        } */
+        /** try {
+            multipleException.start();
+        } catch (IOException|ParseException e) {
+            System.out.println("ParseException or IOException");
+        }*/
+
         try {
-            exceptions.print();
+            multipleException.example();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");
+            System.out.println("FileNotFoundException");
+        } catch (IOException e) {
+            System.out.println("IOException");
         }
     }
 }
