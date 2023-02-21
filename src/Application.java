@@ -19,8 +19,9 @@
 // import InnerClasses.InnerClasses;
 // import PassingByValue.PassingByValue;
 // import LambdaExpressions.LambdaExpressions;
+// import EnumsAdvancedUsage.EnumsAdvancedUsage;
 
-import EnumsAdvancedUsage.EnumsAdvancedUsage;
+import Serialization.Serialization;
 
 public class Application {
     public static void main(String[] args) {
@@ -115,7 +116,9 @@ public class Application {
         // pbv.print();
         // LambdaExpressions le = new LambdaExpressions();
         // le.print();
-        EnumsAdvancedUsage eau = new EnumsAdvancedUsage();
-        eau.print();
+        // EnumsAdvancedUsage eau = new EnumsAdvancedUsage();
+        // eau.print();
+        Serialization serialization = new Serialization();
+        serialization.print();
     }
 }
