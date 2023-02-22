@@ -21,9 +21,10 @@
 // import LambdaExpressions.LambdaExpressions;
 // import EnumsAdvancedUsage.EnumsAdvancedUsage;
 // import Serialization.Serialization;
+// import ArrayListClass.ArrayListClass;
+// import HashMapClass.HashMapClass;
 
-
-import ArrayListClass.ArrayListClass;
+import LinkedHashMapClass.LinkedHashMapClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -122,7 +123,11 @@ public class Application {
         // eau.print();
         // Serialization serialization = new Serialization();
         // serialization.print();
-        ArrayListClass alc = new ArrayListClass();
-        alc.print();
+        // ArrayListClass alc = new ArrayListClass();
+        // alc.print();
+        // HashMapClass hmc = new HashMapClass();
+        // hmc.print();
+        LinkedHashMapClass lhm = new LinkedHashMapClass();
+        lhm.print();
     }
 }
