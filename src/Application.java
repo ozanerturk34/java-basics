@@ -23,8 +23,9 @@
 // import Serialization.Serialization;
 // import ArrayListClass.ArrayListClass;
 // import HashMapClass.HashMapClass;
+// import LinkedHashMapClass.LinkedHashMapClass;
 
-import LinkedHashMapClass.LinkedHashMapClass;
+import HashSetClass.HashSetClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -127,7 +128,9 @@ public class Application {
         // alc.print();
         // HashMapClass hmc = new HashMapClass();
         // hmc.print();
-        LinkedHashMapClass lhm = new LinkedHashMapClass();
-        lhm.print();
+        // LinkedHashMapClass lhm = new LinkedHashMapClass();
+        // lhm.print();
+        HashSetClass hsc = new HashSetClass();
+        hsc.print();
     }
 }
