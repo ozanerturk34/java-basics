@@ -3,7 +3,9 @@ package Serialization;
 import java.io.Serializable;
 
 public class Vehicle implements Serializable {
-    private int id;
+    // transient values are initialized with default value
+    // this field is not serialized
+    private transient int id;
     private String brand;
 
     public int getId() {

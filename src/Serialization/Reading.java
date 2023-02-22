@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Reading {
     public void start() {
@@ -12,12 +14,20 @@ public class Reading {
         try(FileInputStream fileInput = new FileInputStream("src/Serialization/vehicle.data")){
 
             ObjectInputStream objectInput = new ObjectInputStream(fileInput);
-            Vehicle vehicle1 = (Vehicle) objectInput.readObject();
-            Vehicle vehicle2 = (Vehicle) objectInput.readObject();
-            objectInput.close();
+            Vehicle[] vehicles = (Vehicle[]) objectInput.readObject();
+            ArrayList<Vehicle> vehicleList = (ArrayList<Vehicle>) objectInput.readObject();
 
-            System.out.println(vehicle1);
-            System.out.println(vehicle2);
+            int size = objectInput.readInt();
+            System.out.println(size);
+
+            objectInput.close();
+            for(Vehicle vehicle : vehicles){
+                System.out.println(vehicle);
+            }
+
+            for(Vehicle vehicle : vehicleList) {
+                System.out.println(vehicle);
+            }
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
