@@ -20,8 +20,10 @@
 // import PassingByValue.PassingByValue;
 // import LambdaExpressions.LambdaExpressions;
 // import EnumsAdvancedUsage.EnumsAdvancedUsage;
+// import Serialization.Serialization;
 
-import Serialization.Serialization;
+
+import ArrayListClass.ArrayListClass;
 
 public class Application {
     public static void main(String[] args) {
@@ -118,7 +120,9 @@ public class Application {
         // le.print();
         // EnumsAdvancedUsage eau = new EnumsAdvancedUsage();
         // eau.print();
-        Serialization serialization = new Serialization();
-        serialization.print();
+        // Serialization serialization = new Serialization();
+        // serialization.print();
+        ArrayListClass alc = new ArrayListClass();
+        alc.print();
     }
 }
