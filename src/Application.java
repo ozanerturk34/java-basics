@@ -24,8 +24,9 @@
 // import ArrayListClass.ArrayListClass;
 // import HashMapClass.HashMapClass;
 // import LinkedHashMapClass.LinkedHashMapClass;
+// import HashSetClass.HashSetClass;
 
-import HashSetClass.HashSetClass;
+import SortingLists.SortingLists;
 
 public class Application {
     public static void main(String[] args) {
@@ -130,7 +131,9 @@ public class Application {
         // hmc.print();
         // LinkedHashMapClass lhm = new LinkedHashMapClass();
         // lhm.print();
-        HashSetClass hsc = new HashSetClass();
-        hsc.print();
+        // HashSetClass hsc = new HashSetClass();
+        // hsc.print();
+        SortingLists sl = new SortingLists();
+        sl.print();
     }
 }
