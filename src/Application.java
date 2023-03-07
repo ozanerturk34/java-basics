@@ -25,8 +25,11 @@
 // import HashMapClass.HashMapClass;
 // import LinkedHashMapClass.LinkedHashMapClass;
 // import HashSetClass.HashSetClass;
+// import SortingLists.SortingLists;
 
-import SortingLists.SortingLists;
+import Threads.Threads;
+import Threads.RunnableClass;
+import Threads.MultiThreads;
 
 public class Application {
     public static void main(String[] args) {
@@ -133,7 +136,21 @@ public class Application {
         // lhm.print();
         // HashSetClass hsc = new HashSetClass();
         // hsc.print();
-        SortingLists sl = new SortingLists();
-        sl.print();
+        // SortingLists sl = new SortingLists();
+        // sl.print();
+        // Threads threads1 = new Threads();
+        // Thıs will make sure code runs on its separate thread
+        // threads1.start();
+        // Threads threads2 = new Threads();
+        // This will run on a 2nd thread thus can work simultaneously with thread 1
+        // threads2.start();
+
+        // Thread thread1 = new Thread(new RunnableClass());
+        // Thread thread2 = new Thread(new RunnableClass());
+        // thread1.start();
+        // thread2.start();
+
+        MultiThreads mt = new MultiThreads();
+        mt.start();
     }
 }
